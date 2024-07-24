@@ -1,0 +1,26 @@
+.product-hero-div{
+    margin-top: 7rem !important;
+}
+.product-hero-div h1{
+    font-size: 2.9rem;
+    color: rgba(0, 0, 0, 0.73);
+    margin-bottom: 1.3rem;
+
+}
+.product-hero-div h5{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.908);
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}
+.leftImage-links a{
+    text-decoration: none;
+    font-size: 1.05rem;
+}
+.leftImage-a-tag {
+    margin-left: 4rem;
+}
+.leftImage-pay-links{
+    margin-left: 1.4rem;
+}
