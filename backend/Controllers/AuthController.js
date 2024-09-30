@@ -11,10 +11,7 @@ module.exports.Signup = async (req, res, next) => {
     }
     const check = await User.findOne({email:email})
     if(check){
-      res.json("exist");
-    }
-    else{
-      res.json("notexist")
+     return res.json("exist");
     }
     const user = await User.create({ email, password, username, createdAt });
     const token = createSecretToken(user._id);
